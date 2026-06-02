@@ -33,7 +33,7 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 - Example Tier 0 manifest using Invoica (`examples/aiax.json`)
 - Example Tier 1 capability section (`examples/sections/pricing.json`)
 - Composition guidance for MCP, OpenAPI, llms.txt, and `.well-known/`
-- Relationship mapping to the rest of the Kognai protocol family (PACT, LAX, DRS, SCORE)
+- Relationship mapping to the rest of the Godman Protocols (PACT, LAX, DRS, SCORE)
 - Explicit out-of-scope list for v0.2 (compact binary encoding, federation, per-agent personalization, i18n)
 
 ### Notes

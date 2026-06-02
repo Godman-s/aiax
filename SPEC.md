@@ -58,7 +58,7 @@ The principles are the discipline. The schema is only a v0.1 expression of them.
 
 ### 3.1 Retrieval-first, not delivery-first
 
-An AIAX surface delivers a small index and lets the agent retrieve only what it needs. It does not bundle "everything an agent might want" into one document. This is the same principle that underlies Kognai's ASMR internal memory architecture.
+An AIAX surface delivers a small index and lets the agent retrieve only what it needs. It does not bundle "everything an agent might want" into one document. This is the same retrieval-first principle applied to agent memory architectures.
 
 ### 3.2 Tiered by decision-relevance, not by topic
 
@@ -175,7 +175,7 @@ An implementation is **AIAX v0.1 partial** if it publishes only the Tier 0 manif
 
 ---
 
-## 6. Relationship to existing Kognai protocols
+## 6. Relationship to the Godman Protocols
 
 ### 6.1 LAX (Linked Agent eXchange)
 

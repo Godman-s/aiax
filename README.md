@@ -37,11 +37,11 @@ The tiering is ordered by **decision relevance**, not by topic. Agents fetch Tie
 - Not a registry or directory protocol — that's LAX
 - Not a negotiation protocol — that's PACT
 - Not a payment protocol — that's x402 / DRS
-- Not a moat for Kognai — the spec is permissive by design; the point is the discipline, not the namespace
+- Not a proprietary moat — the spec is permissive by design; the point is the discipline, not the namespace
 
-## Relationship to the Kognai protocol family
+## Relationship to the Godman Protocols
 
-AIAX sits alongside PACT, LAX, DRS, and SCORE. All share Kognai's **Retrieval-First Principle** — privilege structured addressable retrieval over full-document delivery at every layer of the stack.
+AIAX sits alongside PACT, LAX, DRS, and SCORE. All share the Godman Protocols' **Retrieval-First Principle** — privilege structured addressable retrieval over full-document delivery at every layer of the stack.
 
 | Protocol | Layer | What it does |
 |----------|-------|--------------|
@@ -53,7 +53,7 @@ AIAX sits alongside PACT, LAX, DRS, and SCORE. All share Kognai's **Retrieval-Fi
 
 ## Reference implementation
 
-Invoica (`invoica.ai`) will be the first published AIAX implementation, with a token-cost benchmark vs the human surface. See TICKET-063 in the Kognai Change Log.
+Invoica (`invoica.ai`) will be the first published AIAX implementation, with a token-cost benchmark vs the human surface.
 
 ## Contributing
 

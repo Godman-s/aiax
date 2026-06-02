@@ -52,6 +52,6 @@
   ],
   "pact_mandate_template": null,
   "extensions": {
-    "kognai:notes": "Pricing is illustrative for the AIAX v0.1 example. Production pricing lives at https://invoica.ai/pricing."
+    "aiax:notes": "Pricing is illustrative for the AIAX v0.1 example. Production pricing lives at https://invoica.ai/pricing."
   }
 }
