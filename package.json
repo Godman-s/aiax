@@ -32,9 +32,9 @@
     "type": "git",
     "url": "git+https://github.com/Godman-s/aiax.git"
   },
-  "homepage": "https://kognai.ai/aiax",
+  "homepage": "https://github.com/Godman-s/aiax",
   "bugs": {
-    "url": "https://kognai.ai/aiax"
+    "url": "https://github.com/Godman-s/aiax/issues"
   },
   "engines": {
     "node": ">=20.0.0"

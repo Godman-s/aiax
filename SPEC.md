@@ -4,7 +4,7 @@
 **Version:** 0.1.0
 **Status:** Draft for public review
 **Date:** 2026-05-21
-**Published at:** kognai.ai/aiax
+**Published at:** github.com/Godman-s/aiax
 
 ---
 
@@ -246,7 +246,7 @@ AIAX is a contribution to this lineage, not a replacement.
 - Negotiation primitives folded into AIAX vs left in PACT
 - Internationalization (single-locale only in v0.1)
 
-Comments welcome via the canonical channel at kognai.ai/aiax.
+Comments welcome via the canonical channel at github.com/Godman-s/aiax.
 
 ---
 

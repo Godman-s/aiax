@@ -2,7 +2,7 @@
 
 > *"What an agent encounters when it shows up wanting to evaluate, navigate, decide, or transact."*
 
-**Status:** v0.1 draft · **License:** CC BY 4.0 (spec) · **Canonical URL:** kognai.ai/aiax
+**Status:** v0.1 draft · **License:** CC BY 4.0 (spec) · **Canonical URL:** github.com/Godman-s/aiax
 
 ---
 
@@ -57,4 +57,4 @@ Invoica (`invoica.ai`) will be the first published AIAX implementation, with a t
 
 ## Contributing
 
-This is a v0.1 draft. Comments, issues, and adoption signals welcome via the canonical channel at kognai.ai/aiax (publication URL).
+This is a v0.1 draft. Comments, issues, and adoption signals welcome via the canonical channel at github.com/Godman-s/aiax (publication URL).

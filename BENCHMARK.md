@@ -154,4 +154,4 @@ These will be addressed in v0.2 informed by results from the first wave of publi
 
 ---
 
-*This document accompanies AIAX SPEC v0.1.0. Comments welcome via kognai.ai/aiax.*
+*This document accompanies AIAX SPEC v0.1.0. Comments welcome via github.com/Godman-s/aiax.*

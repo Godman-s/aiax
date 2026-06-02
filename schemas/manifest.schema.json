@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://kognai.ai/aiax/schemas/manifest.schema.json",
+  "$id": "https://raw.githubusercontent.com/Godman-s/aiax/main/schemas/manifest.schema.json",
   "title": "AIAX Manifest (Tier 0)",
   "description": "The /.well-known/aiax.json document. Target size: 100-300 tokens.",
   "type": "object",

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://kognai.ai/aiax/schemas/section.schema.json",
+  "$id": "https://raw.githubusercontent.com/Godman-s/aiax/main/schemas/section.schema.json",
   "title": "AIAX Capability Section (Tier 1)",
   "description": "A single capability section at /aiax/sections/<section_id>.json. Target size: 200-1,000 tokens.",
   "type": "object",
