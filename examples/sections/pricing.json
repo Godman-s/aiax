@@ -1,0 +1,57 @@
+{
+  "aiax_version": "0.1",
+  "section_id": "pricing",
+  "purpose": "Full pricing matrix for Invoica capabilities. All amounts are settlement-side; issuance is always free. Rails default to x402 on USDC-Base unless the section specifies otherwise.",
+  "inputs": "No input — this section is informational only.",
+  "outputs": {
+    "type": "object",
+    "properties": {
+      "create_invoice": {
+        "type": "object",
+        "properties": {
+          "amount": { "type": "string", "const": "0" },
+          "currency": { "type": "string", "const": "USDC" },
+          "model": { "type": "string", "const": "free" }
+        }
+      },
+      "settle_invoice": {
+        "type": "object",
+        "properties": {
+          "amount": { "type": "string", "const": "0.01" },
+          "currency": { "type": "string", "const": "USDC" },
+          "model": { "type": "string", "const": "per_call" }
+        }
+      },
+      "tax_calc": {
+        "type": "object",
+        "properties": {
+          "amount": { "type": "string", "const": "0.001" },
+          "currency": { "type": "string", "const": "USDC" },
+          "model": { "type": "string", "const": "per_call" },
+          "free_tier": { "type": "string", "const": "1000_calls_per_day" }
+        }
+      }
+    }
+  },
+  "pricing": {
+    "model": "free",
+    "amount": "0",
+    "currency": "USDC",
+    "rail": "x402"
+  },
+  "examples": [
+    {
+      "description": "Agent fetches the pricing matrix to estimate monthly cost for 500 invoices/month.",
+      "request": { "method": "GET", "url": "/aiax/sections/pricing.json" },
+      "response": {
+        "create_invoice": { "amount": "0", "currency": "USDC", "model": "free" },
+        "settle_invoice": { "amount": "0.01", "currency": "USDC", "model": "per_call" },
+        "monthly_estimate_for_500_settlements": "5.00 USDC"
+      }
+    }
+  ],
+  "pact_mandate_template": null,
+  "extensions": {
+    "kognai:notes": "Pricing is illustrative for the AIAX v0.1 example. Production pricing lives at https://invoica.ai/pricing."
+  }
+}

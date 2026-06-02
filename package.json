@@ -1,0 +1,42 @@
+{
+  "name": "@godman-protocols/aiax",
+  "version": "0.1.1",
+  "description": "AIAX — Agent Interface & Agent eXperience: a protocol for agent-facing product surfaces. Minimum tokens to maximum decision-relevant information.",
+  "files": [
+    "README.md",
+    "SPEC.md",
+    "CHANGELOG.md",
+    "BENCHMARK.md",
+    "schemas/",
+    "examples/"
+  ],
+  "keywords": [
+    "agent",
+    "aiax",
+    "agent-experience",
+    "agent-interface",
+    "protocol",
+    "godman-protocols",
+    "mcp",
+    "llms-txt",
+    "retrieval-first",
+    "x402"
+  ],
+  "author": "SkinGem",
+  "license": "CC-BY-4.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Godman-s/aiax.git"
+  },
+  "homepage": "https://kognai.ai/aiax",
+  "bugs": {
+    "url": "https://kognai.ai/aiax"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

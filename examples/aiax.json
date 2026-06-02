@@ -1,0 +1,51 @@
+{
+  "aiax_version": "0.1",
+  "product": {
+    "name": "Invoica",
+    "one_line_purpose": "Programmable invoicing for AI agents — issue, settle, and reconcile invoices on stablecoin rails.",
+    "domain": "agent-invoicing"
+  },
+  "entry_points": [
+    {
+      "id": "create_invoice",
+      "url": "/aiax/sections/create_invoice.json",
+      "purpose": "Issue a new invoice to a payer DID with line items and tax.",
+      "est_tokens": 480
+    },
+    {
+      "id": "settle_invoice",
+      "url": "/aiax/sections/settle_invoice.json",
+      "purpose": "Settle an open invoice via x402 / PayAI / DRS receipt minting.",
+      "est_tokens": 520
+    },
+    {
+      "id": "query_mandate",
+      "url": "/aiax/sections/query_mandate.json",
+      "purpose": "Look up a BOND recurring mandate by ID or payer DID.",
+      "est_tokens": 360
+    },
+    {
+      "id": "pricing",
+      "url": "/aiax/sections/pricing.json",
+      "purpose": "Full pricing matrix for invoicing + settlement + tax calculation.",
+      "est_tokens": 240
+    },
+    {
+      "id": "trust_signals",
+      "url": "/aiax/sections/trust_signals.json",
+      "purpose": "SCORE, partnerships, DRS receipt history, and constitutional binding.",
+      "est_tokens": 290
+    }
+  ],
+  "pricing_summary": "Free to issue. 0.01 USDC per settlement. Tax calc free up to 1k/day, then 0.001 USDC/call.",
+  "trust_signals": {
+    "score": 92,
+    "pact_endpoint": "https://invoica.ai/api/pact/negotiate",
+    "drs_receipt_count": 1847,
+    "partnerships": ["PayAI", "AsterPay", "Helixa"]
+  },
+  "mcp_endpoint": "https://invoica.ai/aiax/mcp",
+  "llms_txt_url": "https://invoica.ai/llms.txt",
+  "openapi_url": "https://invoica.ai/openapi.json",
+  "updated_at": "2026-05-21T00:00:00Z"
+}
